@@ -1,15 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="70d09a38-a8dd-4216-965f-9cc0067b4cf9" name="Default Changelist" comment="" />
+    <list default="true" id="70d09a38-a8dd-4216-965f-9cc0067b4cf9" name="Default Changelist" comment="make database with fake data">
+      <change afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/City.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Country.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CityController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactSupportController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CountryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/DataImportController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/RoleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/StateController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SupportTypeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TagController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TicketController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TicketTypeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UnitController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/EmailVerified.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/UserIsAdmin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/UserIsSupport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/mobileVerified.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Role.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/State.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Tag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Ticket.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/TicketType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Unit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/CategoryFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/ReviewFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/RoleFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/TagFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/TicketFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_30_174446_create_units_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_01_041716_create_categories_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_01_042418_alter_products_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_01_165117_create_tags_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_01_165421_create_product_tag_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_01_172034_create_roles_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_01_172310_create_role_user_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_01_184340_add_discount_to_products.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_01_184858_add_options_to_products.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_02_161246_create_tickets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_02_161308_create_ticket_types_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/units/add_edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/units/units.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/46d029f1-967f-4e0d-842b-c47df8f50da7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/46d029f1-967f-4e0d-842b-c47df8f50da7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ProductFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ProductFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -115,11 +192,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1dxMkU9DgS3ZdBurLV6Ro9ino3y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -144,12 +225,43 @@
       <option name="presentableId" value="Default" />
       <updated>1593362433654</updated>
       <workItem from="1593362437773" duration="40000" />
-      <workItem from="1593362479484" duration="15034000" />
+      <workItem from="1593362479484" duration="15349000" />
+      <workItem from="1593530526280" duration="1447000" />
+      <workItem from="1593533358072" duration="1381000" />
+      <workItem from="1593536649039" duration="10762000" />
+      <workItem from="1593575458913" duration="3695000" />
+      <workItem from="1593621973524" duration="8923000" />
+      <workItem from="1593704228874" duration="8457000" />
     </task>
+    <task id="LOCAL-00001" summary="make database with fake data">
+      <created>1593379843568</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593379843568</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="make database with fake data" />
+    <option name="LAST_COMMIT_MESSAGE" value="make database with fake data" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1091" y="143" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593363668305">
@@ -160,22 +272,30 @@
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
     <state x="-903" y="240" key="FileChooserDialogImpl/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1593362476095" />
-    <state width="1323" height="172" key="GridCell.Tab.0.bottom" timestamp="1593363294021">
+    <state width="1323" height="172" key="GridCell.Tab.0.bottom" timestamp="1593379917152">
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1593363294021" />
-    <state width="1323" height="172" key="GridCell.Tab.0.center" timestamp="1593363294021">
+    <state width="1323" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1593379917152" />
+    <state width="1323" height="172" key="GridCell.Tab.0.center" timestamp="1593379917152">
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1593363294021" />
-    <state width="1323" height="172" key="GridCell.Tab.0.left" timestamp="1593363294021">
+    <state width="1323" height="172" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1593379917152" />
+    <state width="1323" height="172" key="GridCell.Tab.0.left" timestamp="1593379917152">
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1593363294021" />
-    <state width="1323" height="172" key="GridCell.Tab.0.right" timestamp="1593363294021">
+    <state width="1323" height="172" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1593379917152" />
+    <state width="1323" height="172" key="GridCell.Tab.0.right" timestamp="1593379917152">
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1593363294021" />
+    <state width="1323" height="172" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1593379917152" />
+    <state x="-1091" y="214" key="Vcs.Push.Dialog.v2" timestamp="1593379870557">
+      <screen x="-1366" y="121" width="1366" height="728" />
+    </state>
+    <state x="-1091" y="214" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1593379870557" />
+    <state x="-882" y="386" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1593379657388">
+      <screen x="-1366" y="121" width="1366" height="728" />
+    </state>
+    <state x="-882" y="386" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1593379657388" />
     <state x="-1020" y="170" width="672" height="678" key="search.everywhere.popup" timestamp="1593369362582">
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
