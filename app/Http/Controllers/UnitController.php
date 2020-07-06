@@ -13,11 +13,44 @@ class UnitController extends Controller
         return view('admin.units.units') -> with(['units' => $units]);
     }
 
+    private function unitNameExists( $unitName ){
+        $unit = Unit::where(
+            'unit_name', '=' , $unitName
+        )->first();
+        if(! is_null($unit)){
+            Session::flash('message', 'Unit Name ( '.$unitName.' ) already exists');
+            return false;
+        }
+        return true;
+    }
+
+    private  function  unitCodeExists( $unitCode ){
+        $unit = Unit::where(
+            'unit_code', '=' , $unitCode
+        )->first();
+        if(! is_null($unit)){
+            Session::flash('message', 'Unit Code ( '.$unitCode.' ) already exists');
+            return false;
+        }
+        return true;
+    }
+
     public function store(Request $request){
         $request -> validate([
             'unit_name' => 'required',
             'unit_code' => 'required'
         ]);
+
+        $unitName = $request -> input('unit_name');
+        $unitCode = $request -> input('unit_code');
+
+       if(!$this ->unitCodeExists($unitCode)){
+           return redirect()->back();
+        }
+       if( !$this ->unitNameExists($unitName) ){
+           return redirect()->back();
+       }
+
         $unit = new Unit();
         $unit -> unit_name = $request -> input('unit_name');
         $unit -> unit_code = $request -> input('unit_code');

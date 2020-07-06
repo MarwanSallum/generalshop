@@ -19,42 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70d09a38-a8dd-4216-965f-9cc0067b4cf9" name="Default Changelist" comment="roles , ticket, wishlist">
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/categories/categories.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/cities/cities.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/countries/countries.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/products/products.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/reviews/reviews.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/roles/roles.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/states/states.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/tags/tags.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/tickets/tickets.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/46d029f1-967f-4e0d-842b-c47df8f50da7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/46d029f1-967f-4e0d-842b-c47df8f50da7.xml" afterDir="false" />
+    <list default="true" id="70d09a38-a8dd-4216-965f-9cc0067b4cf9" name="Default Changelist" comment="add update unit ad change delete with confirmation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CityController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CountryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CountryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReviewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReviewController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RoleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RoleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StateController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TagController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TagController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TicketController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TicketController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UnitController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UnitController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Review.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Review.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Ticket.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Ticket.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/units/add_edit.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/units/units.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/units/units.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +212,7 @@
       <workItem from="1593842591115" duration="2443000" />
       <workItem from="1593859654743" duration="9979000" />
       <workItem from="1593962199916" duration="14000" />
-      <workItem from="1594055809612" duration="8281000" />
+      <workItem from="1594055809612" duration="10284000" />
     </task>
     <task id="LOCAL-00001" summary="make database with fake data">
       <created>1593379843568</created>
@@ -261,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593716273455</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add update unit ad change delete with confirmation">
+      <created>1594064245275</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594064245275</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +257,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="make database with fake data" />
     <MESSAGE value="roles , ticket, wishlist" />
-    <option name="LAST_COMMIT_MESSAGE" value="roles , ticket, wishlist" />
+    <MESSAGE value="add update unit ad change delete with confirmation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add update unit ad change delete with confirmation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1091" y="143" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593363668305">
@@ -294,22 +269,22 @@
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
     <state x="-903" y="240" key="FileChooserDialogImpl/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1593962211291" />
-    <state width="1323" height="172" key="GridCell.Tab.0.bottom" timestamp="1594058851205">
+    <state width="1323" height="172" key="GridCell.Tab.0.bottom" timestamp="1594064269275">
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594058851205" />
-    <state width="1323" height="172" key="GridCell.Tab.0.center" timestamp="1594058851205">
+    <state width="1323" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594064269275" />
+    <state width="1323" height="172" key="GridCell.Tab.0.center" timestamp="1594064269275">
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594058851205" />
-    <state width="1323" height="172" key="GridCell.Tab.0.left" timestamp="1594058851205">
+    <state width="1323" height="172" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594064269275" />
+    <state width="1323" height="172" key="GridCell.Tab.0.left" timestamp="1594064269275">
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594058851205" />
-    <state width="1323" height="172" key="GridCell.Tab.0.right" timestamp="1594058851205">
+    <state width="1323" height="172" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594064269275" />
+    <state width="1323" height="172" key="GridCell.Tab.0.right" timestamp="1594064269275">
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594058851205" />
+    <state width="1323" height="172" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594064269275" />
     <state x="-1091" y="214" key="Vcs.Push.Dialog.v2" timestamp="1593716302971">
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
