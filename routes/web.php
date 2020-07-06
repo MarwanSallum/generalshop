@@ -24,8 +24,38 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::group([ 'auth', 'user_is_admin' ], function (){
+
+    // Units
     Route::get('units' , 'UnitController@index')->name('units');
-    Route::get( 'add-unit', 'UnitController@showAdd' )-> name('new-unit');
+    Route::post('units', 'UnitController@store');
+    Route::delete('units', 'UnitController@delete');
+    Route::put('units', 'UnitController@update');
+
+    // Categories
+    Route::get('categories', 'categoryController@index')->name('categories');
+    // Products
+    Route::get('products' , 'productController@index')-> name('products');
+    // Tags
+    Route::get('tags', 'TagController@index')->name('tags');
+
+    // Payments
+    // Orders
+    // Shipments
+
+    // Countries
+    Route::get('countries', 'CountryController@index')-> name('countries');
+    // Cities
+    Route::get('cities' , 'CityController@index')->name('cities');
+    // States
+    Route::get('states' , 'StateController@index')->name('states');
+    // Reviews
+    Route::get('reviews', 'ReviewController@index')->name('reviews');
+    // Tickets
+    Route::get('tickets' , 'TicketController@index')->name('tickets');
+    // Roles
+    Route::get('roles', 'RoleController@index')->name('roles');
+
+
 
 });
 
