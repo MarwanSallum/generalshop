@@ -10,7 +10,32 @@ class UnitController extends Controller
 {
     public function index(){
         $units = Unit::paginate(env( 'PAGINATION_COUNT' ));
-        return view('admin.units.units') -> with(['units' => $units]);
+        return view('admin.units.units') -> with([
+            'units' => $units,
+            'showLinks' => true,
+
+        ]);
+    }
+
+    public function search (Request $request){
+        $request -> validate([
+            'unit_search' => 'required'
+        ]);
+        $searchTerm = $request ->input('unit_search');
+
+        $units = Unit::where(
+            'unit_name', 'LIKE', '%'.$searchTerm.'%'
+        )->orWhere(
+            'unit_code', 'LIKE', '%'.$searchTerm.'%'
+        )->get();
+        if(count($units) > 0){
+            return view('admin.units.units')->with([
+                'units' => $units,
+                'showLinks' => false,
+            ]);
+        }
+        Session::flash('message', 'Nothing Found!!!');
+        return redirect()->back();
     }
 
     private function unitNameExists( $unitName ){
@@ -44,12 +69,13 @@ class UnitController extends Controller
         $unitName = $request -> input('unit_name');
         $unitCode = $request -> input('unit_code');
 
+        if( !$this ->unitNameExists($unitName) ){
+            return redirect()->back();
+        }
        if(!$this ->unitCodeExists($unitCode)){
            return redirect()->back();
         }
-       if( !$this ->unitNameExists($unitName) ){
-           return redirect()->back();
-       }
+
 
         $unit = new Unit();
         $unit -> unit_name = $request -> input('unit_name');
@@ -65,6 +91,17 @@ class UnitController extends Controller
             'unit_id' => 'required',
             'unit_name' => 'required',
         ]);
+
+        $unitName = $request -> input('unit_name');
+        $unitCode = $request -> input('unit_code');
+
+        if( !$this ->unitNameExists($unitName) ){
+            return redirect()->back();
+        }
+        if(!$this ->unitCodeExists($unitCode)){
+            return redirect()->back();
+        }
+
 
         $unitID = intval( $request -> input('unit_id') );
         $unit = Unit::find( $unitID);
