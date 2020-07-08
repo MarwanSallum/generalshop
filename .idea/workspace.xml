@@ -19,10 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70d09a38-a8dd-4216-965f-9cc0067b4cf9" name="Default Changelist" comment="add units search">
+    <list default="true" id="70d09a38-a8dd-4216-965f-9cc0067b4cf9" name="Default Changelist" comment="add new tag with confirmation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TagController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TagController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/tags/tags.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/tags/tags.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/units/units.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/units/units.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -216,7 +217,8 @@
       <workItem from="1593962199916" duration="14000" />
       <workItem from="1594055809612" duration="10513000" />
       <workItem from="1594141147630" duration="5169000" />
-      <workItem from="1594223853407" duration="2786000" />
+      <workItem from="1594223853407" duration="7677000" />
+      <workItem from="1594232642029" duration="666000" />
     </task>
     <task id="LOCAL-00001" summary="make database with fake data">
       <created>1593379843568</created>
@@ -253,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594145779708</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add new tag with confirmation">
+      <created>1594227400492</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594227400492</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +287,8 @@
     <MESSAGE value="add update unit ad change delete with confirmation" />
     <MESSAGE value="make unite name &amp; code existing" />
     <MESSAGE value="add units search" />
-    <option name="LAST_COMMIT_MESSAGE" value="add units search" />
+    <MESSAGE value="add new tag with confirmation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new tag with confirmation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1091" y="143" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593363668305">
