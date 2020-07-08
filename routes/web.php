@@ -38,6 +38,7 @@ Route::group([ 'auth', 'user_is_admin' ], function (){
     Route::get('products' , 'productController@index')-> name('products');
     // Tags
     Route::get('tags', 'TagController@index')->name('tags');
+    Route::post( 'tags', 'TagController@store' );
 
     // Payments
     // Orders

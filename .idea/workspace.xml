@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70d09a38-a8dd-4216-965f-9cc0067b4cf9" name="Default Changelist" comment="make unite name &amp; code existing">
+    <list default="true" id="70d09a38-a8dd-4216-965f-9cc0067b4cf9" name="Default Changelist" comment="add units search">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UnitController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UnitController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/units/units.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/units/units.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TagController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TagController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/tags/tags.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/tags/tags.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -215,7 +215,8 @@
       <workItem from="1593859654743" duration="9979000" />
       <workItem from="1593962199916" duration="14000" />
       <workItem from="1594055809612" duration="10513000" />
-      <workItem from="1594141147630" duration="4216000" />
+      <workItem from="1594141147630" duration="5169000" />
+      <workItem from="1594223853407" duration="2786000" />
     </task>
     <task id="LOCAL-00001" summary="make database with fake data">
       <created>1593379843568</created>
@@ -245,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594066219565</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add units search">
+      <created>1594145779708</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594145779708</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +277,8 @@
     <MESSAGE value="roles , ticket, wishlist" />
     <MESSAGE value="add update unit ad change delete with confirmation" />
     <MESSAGE value="make unite name &amp; code existing" />
-    <option name="LAST_COMMIT_MESSAGE" value="make unite name &amp; code existing" />
+    <MESSAGE value="add units search" />
+    <option name="LAST_COMMIT_MESSAGE" value="add units search" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1091" y="143" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593363668305">
@@ -280,26 +289,26 @@
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
     <state x="-903" y="240" key="FileChooserDialogImpl/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1593962211291" />
-    <state width="1323" height="172" key="GridCell.Tab.0.bottom" timestamp="1594066331321">
+    <state width="1323" height="172" key="GridCell.Tab.0.bottom" timestamp="1594146712873">
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594066331321" />
-    <state width="1323" height="172" key="GridCell.Tab.0.center" timestamp="1594066331321">
+    <state width="1323" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594146712873" />
+    <state width="1323" height="172" key="GridCell.Tab.0.center" timestamp="1594146712873">
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594066331321" />
-    <state width="1323" height="172" key="GridCell.Tab.0.left" timestamp="1594066331321">
+    <state width="1323" height="172" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594146712873" />
+    <state width="1323" height="172" key="GridCell.Tab.0.left" timestamp="1594146712873">
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594066331321" />
-    <state width="1323" height="172" key="GridCell.Tab.0.right" timestamp="1594066331321">
+    <state width="1323" height="172" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594146712873" />
+    <state width="1323" height="172" key="GridCell.Tab.0.right" timestamp="1594146712873">
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594066331321" />
-    <state x="-1091" y="214" key="Vcs.Push.Dialog.v2" timestamp="1594066239014">
+    <state width="1323" height="172" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594146712873" />
+    <state x="-1091" y="214" key="Vcs.Push.Dialog.v2" timestamp="1594145833640">
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
-    <state x="-1091" y="214" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594066239014" />
+    <state x="-1091" y="214" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594145833640" />
     <state x="-882" y="386" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1593379657388">
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
