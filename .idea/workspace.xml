@@ -19,17 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70d09a38-a8dd-4216-965f-9cc0067b4cf9" name="Default Changelist" comment="add categories update and delete with search">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/products/new-product.blade.php" afterDir="false" />
+    <list default="true" id="70d09a38-a8dd-4216-965f-9cc0067b4cf9" name="Default Changelist" comment="add options to products">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DataImportController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DataImportController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Unit.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Unit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/products/new-product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/new-product.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/products/products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/products.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -40,7 +36,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -227,7 +225,8 @@
       <workItem from="1594223853407" duration="7677000" />
       <workItem from="1594232642029" duration="7298000" />
       <workItem from="1594309450692" duration="7125000" />
-      <workItem from="1594357562996" duration="11583000" />
+      <workItem from="1594357562996" duration="11728000" />
+      <workItem from="1594388650177" duration="7326000" />
     </task>
     <task id="LOCAL-00001" summary="make database with fake data">
       <created>1593379843568</created>
@@ -285,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594239707120</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add options to products">
+      <created>1594369371739</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1594369371739</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,37 +319,42 @@
     <MESSAGE value="add new tag with confirmation" />
     <MESSAGE value="add tags update and delete with search" />
     <MESSAGE value="add categories update and delete with search" />
-    <option name="LAST_COMMIT_MESSAGE" value="add categories update and delete with search" />
+    <MESSAGE value="add options to products" />
+    <option name="LAST_COMMIT_MESSAGE" value="add options to products" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1091" y="143" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593363668305">
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
     <state x="-1091" y="143" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1593363668305" />
+    <state x="-908" y="399" key="ComposerInitDialogKey" timestamp="1594402522976">
+      <screen x="-1366" y="121" width="1366" height="728" />
+    </state>
+    <state x="-908" y="399" key="ComposerInitDialogKey/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594402522976" />
     <state x="-903" y="240" key="FileChooserDialogImpl" timestamp="1593962211291">
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
     <state x="-903" y="240" key="FileChooserDialogImpl/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1593962211291" />
-    <state width="1323" height="172" key="GridCell.Tab.0.bottom" timestamp="1594326724153">
+    <state width="1323" height="172" key="GridCell.Tab.0.bottom" timestamp="1594369426459">
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594326724153" />
-    <state width="1323" height="172" key="GridCell.Tab.0.center" timestamp="1594326724153">
+    <state width="1323" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594369426459" />
+    <state width="1323" height="172" key="GridCell.Tab.0.center" timestamp="1594369426459">
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594326724153" />
-    <state width="1323" height="172" key="GridCell.Tab.0.left" timestamp="1594326724153">
+    <state width="1323" height="172" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594369426459" />
+    <state width="1323" height="172" key="GridCell.Tab.0.left" timestamp="1594369426459">
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594326724153" />
-    <state width="1323" height="172" key="GridCell.Tab.0.right" timestamp="1594326724153">
+    <state width="1323" height="172" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594369426459" />
+    <state width="1323" height="172" key="GridCell.Tab.0.right" timestamp="1594369426459">
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594326724153" />
-    <state x="-1091" y="214" key="Vcs.Push.Dialog.v2" timestamp="1594239725910">
+    <state width="1323" height="172" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594369426459" />
+    <state x="-1091" y="214" key="Vcs.Push.Dialog.v2" timestamp="1594369384924">
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>
-    <state x="-1091" y="214" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594239725910" />
+    <state x="-1091" y="214" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.121.1366.728@-1366.121.1366.728" timestamp="1594369384924" />
     <state x="-882" y="386" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1593379657388">
       <screen x="-1366" y="121" width="1366" height="728" />
     </state>

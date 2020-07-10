@@ -16,6 +16,21 @@
                                         <p>Category:  {{ (is_object( $product -> category )) ? $product -> category -> name : ''  }}</p>
                                         <p>Price:  {{ $currency_code  }}{{$product -> price}}</p>
                                         {!! (  count($product -> images ) > 0 ) ? '<img class="img-thumbnail card-img" src="'. $product->images[0]->url . '"/>' : '' !!}
+
+                                        @if( ! is_null( $product -> options ) )
+                                         <table>
+                                             @foreach( $product -> jsonOptions() as $optionKey => $options )
+                                                 @foreach( $options as $option )
+                                                     <tr>
+                                                         <td>{{ $optionKey  }}</td>
+                                                         <td>{{ $option  }}</td>
+                                                     </tr>
+                                                 @endforeach
+                                             @endforeach
+                                         </table>
+                                        @endif
+
+
                                         <a class="btn btn-success mt-2" href=" {{ route( 'update-product', [ 'id' => $product -> id ] )  }} ">Update Product</a>
                                     </div>
                                 </div>
@@ -28,4 +43,39 @@
         </div>
     </div>
 
+
+
+
+    @if( \Illuminate\Support\Facades\Session::has('message') )
+        <div class="toast" style="position: absolute; z-index: 99999; top: 5%; right: 5%;">
+            <div class="toast-header">
+                <strong class="mr-auto">Products</strong>
+                <small>11 mins ago</small>
+                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                    <span aria-hidden="true">&times</span>
+                </button>
+            </div>
+            <div class="toast-body">
+
+                {{ \Illuminate\Support\Facades\Session::get('message')  }}
+
+            </div>
+        </div>
+    @endif
+@endsection
+
+@section('scripts')
+
+    @if(\Illuminate\Support\Facades\Session::has('message'))
+
+        <script>
+            jQuery(document).ready(function ($) {
+                var $toast = $('.toast').toast({
+                    autohide : false
+                });
+                $toast.toast('show');
+            });
+        </script>
+
+    @endif
 @endsection
