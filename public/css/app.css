@@ -10955,3 +10955,13 @@ span.buttons-span span:last-child a {
   color: #ff2c27;
 }
 
+span.product-header-title {
+  color: #17882f;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a.remove-option {
+  color: #ff2c27;
+}
+
