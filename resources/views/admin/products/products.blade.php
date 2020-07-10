@@ -18,16 +18,32 @@
                                         {!! (  count($product -> images ) > 0 ) ? '<img class="img-thumbnail card-img" src="'. $product->images[0]->url . '"/>' : '' !!}
 
                                         @if( ! is_null( $product -> options ) )
-                                         <table>
-                                             @foreach( $product -> jsonOptions() as $optionKey => $options )
-                                                 @foreach( $options as $option )
-                                                     <tr>
-                                                         <td>{{ $optionKey  }}</td>
-                                                         <td>{{ $option  }}</td>
-                                                     </tr>
-                                                 @endforeach
-                                             @endforeach
-                                         </table>
+
+                                            @foreach( $product -> jsonOptions() as $key => $values )
+                                                <div class="row">
+                                                    <div class="form-group col-md-12">
+                                                        <label for="{{ $key  }}">{{ $key  }}</label>
+                                                        <select type="text" class="form-control"  name="{{ $key  }}" id="{{ $key  }}">
+                                                        @foreach( $values as $value )
+                                                            <option value="{{ $value }}">{{ $value  }}</option>
+                                                        @endforeach
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            @endforeach
+
+{{--                                         <table>--}}
+{{--                                             @foreach( $product -> jsonOptions() as $optionKey => $options )--}}
+{{--                                                 @foreach( $options as $option )--}}
+{{--                                                     <tr>--}}
+{{--                                                         <td>{{ $optionKey  }}</td>--}}
+{{--                                                         <td>{{ $option  }}</td>--}}
+{{--                                                     </tr>--}}
+{{--                                                 @endforeach--}}
+{{--                                             @endforeach--}}
+{{--                                         </table>--}}
+
+
                                         @endif
 
 
