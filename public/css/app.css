@@ -10965,3 +10965,26 @@ a.remove-option {
   color: #ff2c27;
 }
 
+a.activate-image-upload {
+  display: block;
+}
+
+.image-card-upload .card-body i {
+  font-size: 6rem;
+  color: #7ead48;
+}
+
+.image-card-upload a.remove-image-upload {
+  font-size: 2rem;
+  color: #e01e1e;
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  z-index: 99999;
+  display: none;
+}
+
+input.image-file-upload {
+  display: none;
+}
+
